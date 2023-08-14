@@ -1,0 +1,108 @@
+.Text {
+  font-family: "Dancing Script", cursive, serif;
+  color: #313866;
+  font-size: 40pt;
+}
+
+.TopSection {
+  padding-top: 100px;
+  background-color: #bef5f5;
+  position: relative;
+}
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.TopCloud {
+  position: absolute;
+  left: 150px;
+  top: 40px;
+}
+
+.BottomCloud {
+  position: absolute;
+  right: 100px;
+}
+
+.AboutSection {
+  padding-top: 100px;
+}
+
+.AboutText {
+  width: 30%;
+  margin: auto;
+}
+
+.Photo {
+  border-radius: 50%;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.5em;
+}
+
+.MySkillsSection {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  gap: 2rem;
+}
+
+hr {
+  border: dotted #bef5f5 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.btn {
+  margin-top: 30px;
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #66bfbf;
+  height: 25vh;
+  padding-top: 5%;
+ }
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  
+}
+
+.WhiteText {
+  margin-top: 30px;
+  color: white;
+  font-size: 12pt;
+  font-family: "Montserrat", sans-serif;
+}
